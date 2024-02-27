@@ -1,0 +1,9 @@
+
+<mat-dialog-content>
+  <p> {{ data }} </p>
+</mat-dialog-content>
+
+<mat-dialog-actions align="start">
+  <button mat-raised-button (click)="onConfirm(true)" color="primary">Sim</button>
+  <button mat-raised-button (click)="onConfirm(false)" color="warn" >Não</button>
+</mat-dialog-actions>

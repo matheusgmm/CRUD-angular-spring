@@ -1,0 +1,30 @@
+mat-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.min-width {
+  width: 100%;
+  min-width: 150px;
+}
+
+mat-card-actions {
+  display: flex;
+  gap: 1rem;
+  padding: 0 0 1em 1em;
+}
+
+.form-toolbar {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.form-array-error {
+  text-align: left;
+}
+
+
